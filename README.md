@@ -8,7 +8,7 @@ In today's fast-paced software development environment, SDK(Software Development
 
 ### Reduce Manual Testing Effort
 
-Since SDKs have many interfaces (potentially hundreds of them), manual testing is time-consuming, expensive, and makes it difficult to ensure test stability and repeatability. Therefore, automated testing is the best solution in this situation. Musti (2021), from RV College of Engineering, Bengaluru, said "The manual software testing at times is less accurate and also consumes quite a lot of time which is not desirable in projects where agile methodology is practiced. Hence automation becomes inevitable" (Musti, 2021, p.3). Automation significantly reduces the need for manual testing while improving accuracy.
+Since SDKs have many interfaces (potentially hundreds of them), manual testing is time-consuming, expensive, and makes it difficult to ensure test stability and repeatability. Therefore, automated testing is the best solution in this situation. Musti (2021), from RV College of Engineering, Bengaluru, said "The manual software testing at times is less accurate and also consumes quite a lot of time which is not desirable in projects where agile methodology is practiced. Hence automation becomes inevitable" ([Musti, 2021, p.3](#musti-s-s--srinivas-b-k-2021-research-on-functional-test-automation-tools-for-api-web-and-mobile-application)). Automation significantly reduces the need for manual testing while improving accuracy.
 
 ### Validate SDK API Functionality
 
@@ -44,7 +44,7 @@ class TestRtcVideoCall(unittest.TestCase):
 
 ### Test-Driven Development Approach
 
-TDD(Test-Driven Development) is a development process that emphasizes writing tests before implementing code. This approach offers significant benefits when developing SDK features. Following TDD principle is a great way to develop SDK features. Erdogmus (2010) mentioned "When all programming activity is led by tests,the resulting software begins its life as testable and necessarily remains so, with the positive equality implications of the ability to independently exercise program behaviors" (Erdogmus, 2010, p.4). The main process of TDD in our testing solution is as follows:
+TDD(Test-Driven Development) is a development process that emphasizes writing tests before implementing code. This approach offers significant benefits when developing SDK features. Following TDD principle is a great way to develop SDK features. Erdogmus (2010) mentioned "When all programming activity is led by tests,the resulting software begins its life as testable and necessarily remains so, with the positive equality implications of the ability to independently exercise program behaviors" ([Erdogmus, 2010, p.4](#erdogmus-h-melnik-g--jeffries-r-2010-test-driven-development)). The main process of TDD in our testing solution is as follows:
 
 - Clear Requirements Definition
 - Forces developers to think through API design before implementation
@@ -148,7 +148,7 @@ class TestFramework:
 
 ### Continuous Integration
 
-For the CI/CD process, we use Jenkins to automate our testing pipeline. The testing pipeline is triggered by the code being pushed to the main branch. The pipeline will run the tests and generate the test reports. The test reports are stored in the HTML format and can be sent to developers and QAs by email for review. Joshi (2022) mentioned "The introduction of automated testing frameworks significantly improved code quality, as indicated by improved code coverage and the number of bugs detected before production deployment" (Joshi, 2022, p.110).
+For the CI/CD process, we use Jenkins to automate our testing pipeline. The testing pipeline is triggered by the code being pushed to the main branch. The pipeline will run the tests and generate the test reports. The test reports are stored in the HTML format and can be sent to developers and QAs by email for review. Joshi (2022) mentioned "The introduction of automated testing frameworks significantly improved code quality, as indicated by improved code coverage and the number of bugs detected before production deployment" ([Joshi, 2022, p.110](#joshi-n-y-2022-implementing-automated-testing-frameworks-in-cicd-pipelines-improving-code-quality-and-reducing-time-to-market-international-journal-on-recent-and-innovation-trends-in-computing-and-communication-106-106-113)).
 
 ```groovy
 // This code demonstrates a Jenkins pipeline
@@ -176,8 +176,8 @@ This automated testing solution has proven essential for maintaining the quality
 
 ## References
 
-- Erdogmus, H., Melnik, G., & Jeffries, R. (2010). Test-Driven Development.
+- #### Erdogmus, H., Melnik, G., & Jeffries, R. (2010). Test-Driven Development.
 
-- Musti, S. S., & Srinivas, B. K. (2021). Research on Functional Test Automation Tools for API, Web and Mobile application.
+- #### Musti, S. S., & Srinivas, B. K. (2021). Research on Functional Test Automation Tools for API, Web and Mobile application.
 
-- Joshi, N. Y. (2022). Implementing Automated Testing Frameworks in CI/CD Pipelines: Improving Code Quality and Reducing Time to Market. International Journal on Recent and Innovation Trends in Computing and Communication, 10(6), 106-113.
+- #### Joshi, N. Y. (2022). Implementing Automated Testing Frameworks in CI/CD Pipelines: Improving Code Quality and Reducing Time to Market. International Journal on Recent and Innovation Trends in Computing and Communication, 10(6), 106-113.
